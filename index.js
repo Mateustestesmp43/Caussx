@@ -209,7 +209,7 @@ function kyun(seconds){
 }
 
 async function starts() {
-	const client = new WAConnection()
+	const client = new makeWASocket()
 	client.logger.level = 'warn'
 	console.log(banner.string)
 	client.on('qr', () => {
