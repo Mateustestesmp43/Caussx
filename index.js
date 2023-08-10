@@ -1,6 +1,6 @@
 //api do zapo 
 const {
-    WAConnection,
+    makeWASocket,
     MessageType,
     Presence,
     MessageOptions,
